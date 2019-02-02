@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style/form.css">
+	<link rel="stylesheet" href="style/style.css">
+	<title>Softuni Beers</title>
+</head>
+<body>
+<nav>
+	<div class="topnav">
+		<a class="logo" href="template.html"><img src="images/logo.png" alt="logo image"/></a>
+		<a href="index.html">Home</a>
+		<a href="all-beers.html">See All Beers</a>
+		<a href="order.htm">Order a Beer</a>
+		<a class="right active" href="register.html">Register</a>
+		<a class="right" href="login.html">Login</a>
+	</div>
+</nav>
+<main>
+	<div align="center">
+		<h1>Register</h1>
+		<br/>
+		<form action="/register" method="post">
+			<label>
+				Your Name
+				<input type="text" name="name" placeholder="Enter Name">
+			</label>
+			<label>
+				Username
+				<input type="text" name="username" placeholder="Username">
+			</label>
+			<label>
+				Email
+				<input type="email" name="email" placeholder="email@domain.com">
+			</label>
+			<label>
+				Password
+				<input type="password" name="password" placeholder="Password">
+			</label>
+			<label>
+				Confirm Password
+				<input type="password" name="confirmPass" placeholder="Confirm Password">
+			</label>
+			<input type="submit" value="Register">
+		</form>
+	</div>
+</main>
+<footer>
+	<hr/>
+	<p><em>&copy; 2017 &ndash; Beer Store</em></p>
+</footer>
+</body>
+</html>

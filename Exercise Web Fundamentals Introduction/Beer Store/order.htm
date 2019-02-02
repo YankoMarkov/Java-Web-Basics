@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style/form.css">
+	<link rel="stylesheet" href="style/style.css">
+	<title>Softuni Beers</title>
+</head>
+<body>
+<nav>
+	<div class="topnav">
+		<a class="logo" href="template.html"><img src="images/logo.png" alt="logo image"/></a>
+		<a href="index.html">Home</a>
+		<a href="all-beers.html">See All Beers</a>
+		<a class="active" href="order.htm">Order a Beer</a>
+		<a class="right" href="register.html">Register</a>
+		<a class="right" href="login.html">Login</a>
+	</div>
+</nav>
+<main>
+	<div align="center">
+		<h1>Order a Beer</h1>
+		<br/>
+		<form action="/order" method="post">
+			<label>
+				Brand
+				<select name="brand">
+					<option selected disabled>Select brand</option>
+					<option value="corona">Corona Extra 330ml.</option>
+					<option value="stella">Stella Artois 330ml.</option>
+					<option value="carlsberg">Carlsberg 330ml.</option>
+					<option value="heineken">Heineken 330ml.</option>
+				</select>
+			</label>
+			<label>
+				Quantity
+				<input type="number" min="1" max="15" name="quantity" placeholder="Enter amount of beers (1-15)">
+			</label>
+			<label>
+				Destination
+				<select name="destination">
+					<option selected disabled>Select destination</option>
+					<option value="sofia">Sofia</option>
+					<option value="london">London</option>
+					<option value="paris">Paris</option>
+					<option value="NY">New York</option>
+				</select>
+			</label>
+			<label>
+				Your Birthdate
+				<input type="date" name="birthdate" placeholder="mm/dd/yyyy">
+			</label>
+			<label>
+				Got an opinion, comment, recommendation? Share it with us!
+				<textarea placeholder="Share your opinion with us!"></textarea>
+			</label>
+			<input type="submit" value="Order" id="orderSubmit">
+		</form>
+	</div>
+</main>
+<footer>
+	<hr/>
+	<p><em>&copy; 2017 &ndash; Beer Store</em></p>
+</footer>
+</body>
+</html>

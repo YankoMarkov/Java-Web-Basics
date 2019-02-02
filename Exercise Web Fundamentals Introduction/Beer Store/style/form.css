@@ -1,0 +1,48 @@
+form {
+	width: 50%;
+	margin: 0 auto;
+}
+
+input, select {
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width: 75%;
+	padding: 15px;
+	border-radius: 5px;
+	border: 1px solid #FE9E00;
+}
+
+input[type=number], input[type="date"], textarea {
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width: 70%;
+	padding: 15px;
+	border-radius: 5px;
+	border: 1px solid #FE9E00;
+}
+
+textarea {
+	resize: none;
+}
+
+input[type=submit] {
+	margin-bottom: 20px;
+	width: 79%;
+	padding: 15px;
+	border-radius: 5px;
+	border: 1px solid #FE9E00;
+	background-color: #FEAE00;
+	color: aliceblue;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #FE7300;
+}
+
+#orderSubmit {
+	width: 74%;
+}
