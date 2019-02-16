@@ -7,80 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daaa886b-a834-424c-9133-60e9d7fa1b68" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/MeTube.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/domain/entities/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/domain/entities/Tube.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/domain/models/bindingModels/TubeCreateBindingModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/domain/models/serviceModels/TubeServiceModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/domain/models/viewModels/TubeAllViewModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/domain/models/viewModels/TubeDetailsViewModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/repositories/GenericRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/repositories/TubeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/repositories/TubeRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/services/TubeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/services/TubeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/util/ModelMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/web/filters/TubeCreateFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/web/servlets/HomeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/web/servlets/tubes/TubeAllServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/web/servlets/tubes/TubeCreateServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/classes/metube/web/servlets/tubes/TubeDetailsServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/byte-buddy-1.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/hibernate-core-5.4.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/modelmapper-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/mysql-connector-java-8.0.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/templates/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/templates/head.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/tubes/tubeAll.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/tubes/tubeCreate.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE JavaServer Pages/MeTube/out/artifacts/MeTube_Web_exploded/tubes/tubeDetails.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/alara_restaurant_db.RnB4cQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/bookshops.9LLEeQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/car_dealers.DzggEw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/car_rental.70NWUg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/ccb_db.29mQrg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/diablo.adeZsA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/instagraph.U-9nNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/instagraph.U-9nNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/minions.vZZzPw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/minions_db.QAU07A.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/movies.Q6dTwA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/orders.5WLfww.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/payment.BjIc0Q.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/people.jzLixA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/products_shop.8QCkcw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/sales.DEmCBg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/soft_uni.W8OYTg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/dataSources/30c82800-6557-46ef-9922-e0918132fa44/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/chushka.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercise Java EE Servlet API 4.0/Chushka/out/artifacts/chushka_Web_exploded/chushka_Web exploded.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -121,7 +48,20 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/metube/services/TubeServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -222,6 +162,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -424,6 +366,21 @@
               <item name="MeTube" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="metube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MeTube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="metube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MeTube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -462,8 +419,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -605,16 +560,19 @@
       <workItem from="1549561176249" duration="19987000" />
       <workItem from="1549631415589" duration="41847000" />
       <workItem from="1549747743811" duration="904000" />
+      <workItem from="1549790776465" duration="1822000" />
+      <workItem from="1549797852336" duration="1948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104857000" />
+    <option name="totallyTimeSpent" value="108627000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2793177" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28277636" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -657,14 +615,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/unregisteredNavbar.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/users/loginUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -719,18 +669,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/metube/domain/models/viewModels/tubes/TubeAllViewModel.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/metube/domain/config/ApplicationBeanConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metube/domain/config/ApplicationBeanConfiguration.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/metube/web/servlets/IndexServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -786,23 +725,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metube/web/filters/UserFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metube/web/filters/GuestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metube/web/filters/UserFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/metube/web/filters/GuestFilter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/metube/web/filters/TubeCreateFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -833,16 +757,6 @@
             <element signature="e#667#668#0" expanded="true" />
             <element signature="e#715#716#0" expanded="true" />
             <element signature="e#748#749#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metube/domain/models/serviceModels/TubeServiceModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#834#835#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -898,20 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metube/domain/models/serviceModels/UserServiceModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/metube/web/filters/UserProfileFilter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/metube/domain/models/viewModels/tubes/TubeDetailsViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -950,34 +850,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metube/domain/models/viewModels/users/UserProfileViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metube/domain/models/viewModels/users/UserProfileViewModel.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/metube/domain/entities/Tube.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1012,16 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metube/services/TubeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/metube/repositories/TubeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1029,40 +892,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metube/repositories/TubeRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1844">
-          <caret line="115" column="57" selection-start-line="115" selection-start-column="57" selection-end-line="115" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metube/services/TubeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="66" column="4" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/metube/repositories/UserRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="875">
           <caret line="85" column="57" selection-start-line="85" selection-start-column="57" selection-end-line="85" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metube/services/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1093,14 +926,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metube/web/servlets/users/UserProfileServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metube/web/servlets/users/UserProfileServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/metube/web/servlets/tubes/TubeCreateServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1132,6 +958,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metube/repositories/TubeRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="95" column="8" lean-forward="true" selection-start-line="95" selection-start-column="8" selection-end-line="103" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metube/services/TubeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metube/domain/models/serviceModels/UserServiceModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metube/domain/models/serviceModels/TubeServiceModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#834#835#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metube/services/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metube/services/TubeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

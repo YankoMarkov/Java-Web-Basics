@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+		PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<ui:composition template="/views/templates/base-layout.xhtml">
+	<ui:define name="main-content">
+		<div class="jumbotron justify-content-center jumbotron-background">
+			<div class="row">
+				<div class="col col-md-12 d-flex justify-content-center">
+					<h1>All Cats!</h1>
+				</div>
+			</div>
+			<hr class="hr-background"/>
+			<p:dataTable value="#{catAllBean.allCats}" var="cat" styleClass="table table-striped">
+				<p:column headerText="Name">
+					<h:outputText value="#{cat.name}"/>
+				</p:column>
+				<p:column headerText="Breed">
+					<h:outputText value="#{cat.breed}"/>
+				</p:column>
+				<p:column headerText="Color">
+					<h:outputText value="#{cat.color}"/>
+				</p:column>
+				<p:column headerText="Gender">
+					<h:outputText value="#{cat.gender}"/>
+				</p:column>
+				<p:column headerText="Price">
+					<h:outputText value="#{cat.price}"/>
+				</p:column>
+				<p:column headerText="Added On">
+					<h:outputText value="#{cat.addedOn}">
+						<f:convertDateTime pattern="dd-MMM-yyyy"/>
+					</h:outputText>
+				</p:column>
+			</p:dataTable>
+		</div>
+	</ui:define>
+</ui:composition>
+
+</html>
