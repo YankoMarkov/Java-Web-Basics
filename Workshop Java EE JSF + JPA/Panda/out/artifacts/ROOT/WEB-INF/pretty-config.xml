@@ -1,0 +1,50 @@
+<pretty-config xmlns="http://ocpsoft.org/schema/rewrite-config-prettyfaces"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://ocpsoft.org/schema/rewrite-config-prettyfaces
+                      http://ocpsoft.org/xml/ns/prettyfaces/rewrite-config-prettyfaces.xsd">
+	
+	<url-mapping id="index">
+		<pattern value="/index"/>
+		<view-id value="/index.xhtml"/>
+	</url-mapping>
+	<url-mapping id="login">
+		<pattern value="/login"/>
+		<view-id value="/views/users/userLogin.xhtml"/>
+	</url-mapping>
+	<url-mapping id="register">
+		<pattern value="/register"/>
+		<view-id value="/views/users/userRegister.xhtml"/>
+	</url-mapping>
+	<url-mapping id="home">
+		<pattern value="/home"/>
+		<view-id value="/views/users/userHome.xhtml"/>
+	</url-mapping>
+	<url-mapping id="receipt">
+		<pattern value="/receipt"/>
+		<view-id value="/views/receipts/receipt.xhtml"/>
+	</url-mapping>
+	<url-mapping id="receiptDetails">
+		<pattern value="/receipts/details"/>
+		<view-id value="/views/receipts/receiptDetails.xhtml"/>
+	</url-mapping>
+	<url-mapping id="packagePending">
+		<pattern value="/packages/pending"/>
+		<view-id value="/views/packages/packagePending.xhtml"/>
+	</url-mapping>
+	<url-mapping id="packageShipped">
+		<pattern value="/packages/shipped"/>
+		<view-id value="/views/packages/packageShipped.xhtml"/>
+	</url-mapping>
+	<url-mapping id="packageDelivered">
+		<pattern value="/packages/delivered"/>
+		<view-id value="/views/packages/packageDelivered.xhtml"/>
+	</url-mapping>
+	<url-mapping id="packageCreate">
+		<pattern value="/packages/create"/>
+		<view-id value="/views/packages/packageCreate.xhtml"/>
+	</url-mapping>
+	<url-mapping id="packageDetails">
+		<pattern value="/packages/details"/>
+		<view-id value="/views/packages/packageDetails.xhtml"/>
+	</url-mapping>
+</pretty-config>

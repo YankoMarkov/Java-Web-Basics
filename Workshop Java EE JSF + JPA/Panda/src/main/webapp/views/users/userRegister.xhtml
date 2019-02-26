@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+
+<ui:composition template="/views/templates/base-layout.xhtml">
+    <ui:define name="main-content">
+        <h1 class="text-center text-torshia">Register</h1>
+        <hr class="bg-panda w-50 hr-2"/>
+        <h:form class="mx-auto w-50">
+            <div class="form-group">
+                <p:outputLabel for="username" styleClass="text-torshia" value="Username"/>
+                <p:inputText value="#{userRegisterBean.userRegisterBindingModel.username}" styleClass="form-control"
+                             id="username" placeholder="Username..."/>
+            </div>
+            <div class="form-group">
+                <p:outputLabel for="password" styleClass="text-torshia" value="Password"/>
+                <h:inputSecret value="#{userRegisterBean.userRegisterBindingModel.password}" styleClass="form-control"
+                               id="password" pt:placeholder="Password..."/>
+            </div>
+            <div class="form-group">
+                <p:outputLabel for="confirmPassword" styleClass="text-torshia" value="Confirm Password"/>
+                <h:inputSecret value="#{userRegisterBean.userRegisterBindingModel.confirmPassword}"
+                               styleClass="form-control" id="confirmPassword"
+                               pt:placeholder="Confirm Password..."/>
+            </div>
+            <div class="form-group">
+                <p:outputLabel for="email" styleClass="text-torshia" value="Email"/>
+                <p:inputText value="#{userRegisterBean.userRegisterBindingModel.email}" type="email"
+                             styleClass="form-control" id="email" placeholder="Email..."/>
+            </div>
+            <div class="button-holder mt-4 d-flex justify-content-center">
+                <h:commandButton action="#{userRegisterBean.registerUser}" styleClass="btn bg-panda text-white"
+                                 value="Register"/>
+            </div>
+        </h:form>
+    </ui:define>
+</ui:composition>
+
+</html>

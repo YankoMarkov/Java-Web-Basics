@@ -4,9 +4,8 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
+          <element id="module-output" name="FDMC" />
           <element id="jpa-descriptors" facet="FDMC/jpa/JPA" />
-          <element id="module-output" name="fdmc" />
-          <element id="jpa-descriptors" facet="fdmc/jpa/JPA" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
@@ -37,7 +36,7 @@
           <element id="library" level="project" name="Maven: net.bootsfaces:bootsfaces:1.4.0" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="fdmc/web/Web" />
+      <element id="javaee-facet-resources" facet="FDMC/web/Web" />
     </root>
   </artifact>
 </component>

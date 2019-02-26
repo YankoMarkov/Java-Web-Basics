@@ -22,11 +22,16 @@
 		</div>
 		<hr class="my-4">
 		<div class="container">
-			<div class="row">
+			<div class="row text-center">
 				<% for (TubeDetailsViewModel tubeModel : tubeModels) { %>
-				<div class="col col-md-3 d-flex justify-content-center">
-					<img src="https://img.youtube.com/vi/<%= tubeModel.getYouTubeLink() %>/default.jpg" alt="Image">
+				<div class="m-2 justify-content-center width-30p">
+					<div>
+						<img class="img-fluid img-thumbnail"
+						     src="https://img.youtube.com/vi/<%= tubeModel.getYouTubeLink() %>/default.jpg" alt="Image">
+					</div>
 				</div>
+				<h5 class="text-center"><%= tubeModel.getTitle() %></h5>
+				<p class="text-center font-italic"><%= tubeModel.getAuthor() %></p>
 				<% } %>
 			</div>
 		</div>

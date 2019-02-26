@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+
+<ui:composition template="/views/templates/base-layout.xhtml">
+    <ui:define name="main-content">
+        <h1 class="text-center text-torshia">Login</h1>
+        <hr class="bg-panda w-50 hr-2"/>
+        <h:form class="mx-auto w-50">
+            <div class="form-group">
+                <p:outputLabel for="username" styleClass="text-torshia" value="Username"/>
+                <p:inputText value="#{userLoginBean.userLoginBindingModel.username}" styleClass="form-control"
+                             id="username" placeholder="Username..."/>
+            </div>
+            <div class="form-group">
+                <p:outputLabel for="password" class="text-torshia" value="Password"/>
+                <h:inputSecret value="#{userLoginBean.userLoginBindingModel.password}" styleClass="form-control"
+                               id="password" pt:placeholder="Password..."/>
+            </div>
+            <div class="button-holder d-flex justify-content-center">
+                <h:commandButton action="#{userLoginBean.loginUser}" styleClass="btn bg-panda text-white"
+                                 value="Login"/>
+            </div>
+        </h:form>
+    </ui:define>
+</ui:composition>
+
+</html>

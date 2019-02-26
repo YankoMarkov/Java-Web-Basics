@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<ui:composition template="/views/templates/base-layout.xhtml">
+    <ui:define name="main-content">
+        <c:choose>
+            <c:when test="#{session.getAttribute('role') == 'ADMIN'}">
+                <h1 class="text-center">Hello, Administrator #{session.getAttribute('username')}!</h1>
+            </c:when>
+            <c:otherwise>
+                <h1 class="text-center">Hello, #{session.getAttribute('username')}!</h1>
+            </c:otherwise>
+        </c:choose>
+        <hr class="hr-2 bg-panda"/>
+        <div class="d-flex justify-content-between">
+            <div class="w-25 bg-white">
+                <h2 class="text-center">Pending</h2>
+                <div class="border-panda p-3">
+                    <c:forEach items="#{userHomeBean.pendingPackageHomeViewModels}" var="pending">
+                        <div class="p-2 d-flex justify-content-around">
+                            <h4 class="w-75">#{pending.description}</h4>
+                            <h:link styleClass="btn bg-panda text-white w-25"
+                                    outcome="/views/packages/packageDetails.xhtml"
+                                    value="Details">
+                                <f:param name="id" value="#{pending.id}"/>
+                            </h:link>
+                        </div>
+                    </c:forEach>
+                </div>
+            </div>
+            <div class="w-25 bg-white">
+                <h2 class="text-center">Shipped</h2>
+                <div class="border-panda p-3">
+                    <c:forEach items="#{userHomeBean.shippedPackageHomeViewModels}" var="shipped">
+                        <div class="p-2 d-flex justify-content-around">
+                            <h4 class="w-75">#{shipped.description}</h4>
+                            <h:link styleClass="btn bg-panda text-white w-25"
+                                    outcome="/views/packages/packageDetails.xhtml"
+                                    value="Details">
+                                <f:param name="id" value="#{shipped.id}"/>
+                            </h:link>
+                        </div>
+                    </c:forEach>
+                </div>
+            </div>
+            <div class="w-25 bg-white">
+                <h2 class="text-center">Delivered</h2>
+                <div class="border-panda p-3">
+                    <c:forEach items="#{userHomeBean.deliveredPackageHomeViewModels}" var="delivered">
+                        <div class="p-2 d-flex justify-content-around">
+                            <h4 class="w-75">#{delivered.description}</h4>
+                            <h:form>
+                                <h:commandLink styleClass="btn bg-panda text-white w-25"
+                                               action="#{packageDeliveredBean.acquire(delivered.id, session.getAttribute('username'))}"
+                                               value="Acquire"/>
+                            </h:form>
+                        </div>
+                    </c:forEach>
+                </div>
+            </div>
+        </div>
+    </ui:define>
+</ui:composition>
+
+</html>
